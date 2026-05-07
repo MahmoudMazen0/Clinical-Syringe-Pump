@@ -1,0 +1,12 @@
+[tool.flet]
+org = "com.medical.syringepump"
+product = "Syringe Pump Pro"
+description = "Medical Syringe Pump Dashboard"
+
+[tool.flet.android]
+# Permissions needed for WiFi communication
+permissions = ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE", "android.permission.CHANGE_NETWORK_STATE", "android.permission.CHANGE_WIFI_STATE"]
+
+[tool.flet.dependencies]
+# Python packages to bundle in the APK
+packages = ["websocket-client"]
