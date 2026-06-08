@@ -1,6 +1,31 @@
-# Clinical-Grade Syringe Pump
+# 💉 Clinical-Grade Syringe Pump
 
-A high-precision, IoT-enabled syringe pump firmware and dashboard designed for clinical accuracy and safety. The system consists of an **ESP32** controlling a stepper motor via non-blocking architecture, paired with a modern **Python/Flet** dashboard communicating over WebSockets for real-time telemetry and control.
+<div align="center">
+
+![Syringe Pump](https://img.shields.io/badge/Medical-Syringe%20Pump-blue?style=for-the-badge&logo=heart&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-Firmware-red?style=for-the-badge&logo=espressif&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Flet%20Dashboard-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-Real--Time-green?style=for-the-badge&logo=socket.io&logoColor=white)
+
+**A high-precision, IoT-enabled syringe pump firmware and dashboard**  
+*Task 03 — Medical Equipment Course | Second Term 2026*
+
+</div>
+
+---
+
+The system consists of an **ESP32** controlling a stepper motor via non-blocking architecture, paired with a modern **Python/Flet** dashboard communicating over WebSockets for real-time telemetry and control.
+
+---
+
+## 📋 Table of Contents
+
+- [Key Features](#-key-features)
+- [Hardware Requirements](#️-hardware-requirements)
+- [Project Structure](#️-project-structure)
+- [Setup & Installation](#️-setup--installation)
+- [Safety Warning](#️-safety-warning)
+- [Team](#-team)
 
 ## 🚀 Key Features
 
@@ -52,4 +77,26 @@ A high-precision, IoT-enabled syringe pump firmware and dashboard designed for c
 *(Note: To build for Android, run `flet build apk` in the directory after installing Flutter SDK).*
 
 ## 🛡️ Safety Warning
+
 This software/hardware is a prototype developed for educational and research purposes. **Do not use on humans or animals.** Always consult medical device regulations before deploying clinical equipment.
+
+---
+
+## 👥 Team
+
+| # | Name |
+|---|---|
+| 1 | **Mahmoud Mazen** |
+| 2 | **Philopater Emad** |
+| 3 | **Mohannad** |
+| 4 | **Yassin Omar** |
+| 5 | **Youssef Ahmed** |
+| 6 | **Mohamed Hamdy** |
+
+*Medical Equipment Course — Second Term 2026*
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for patient safety simulation</sub>
+</div>
